@@ -1,19 +1,27 @@
-# final_quiz_pro
+# NUBTK Quiz Pro 🎯
 
-A new Flutter project.
+An advanced, responsive, and cross-platform Quiz and MCQ Examination Mobile Application developed for the Computer Science & Engineering (CSE) Department. The system offers a secure login system and a real-time cloud-based question bank management setup.
 
-## Getting Started
+## 🚀 Key Features
 
-This project is a starting point for a Flutter application.
+* **Secure Authentication:** Integrated with Firebase Authentication using Email and Password.
+* **Dynamic Quiz Board UI:** Rich and responsive Dark-Themed UI for a premium exam-taking experience.
+* **Real-time Synchronization:** Quiz topics, questions, options, and correct answers are dynamically loaded from the cloud database.
+* **Database Seeding Logic:** Custom admin seeding utility to populate multiple academic subjects and technical questions instantly.
+* **Instant Score Calculation:** Automatic client-side verification and point allocation upon exam submission.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Technology Stack & Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Frontend Framework:** Flutter (Google's UI Toolkit)
+* **Core Language:** Dart
+* **Backend Platform:** Firebase (Google Cloud Services)
+* **Database:** Cloud Firestore (Scalable NoSQL Document Database)
+* **Data Format:** Key-Value JSON-like structural parsing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-// flutter run -d chrome
+## 📚 Supported CSE Subjects
+The system dynamically serves question sets for core academic courses including:
+1. Compiler Design
+2. Operating Systems
+3. Computer Networks
+4. Database Management Systems (DBMS)
+...and more!
